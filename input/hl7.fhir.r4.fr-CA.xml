@@ -1,47 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R4/fhir-single.xsd">
-  <id value="hl7.fhir.r4.es"/>
-  <url value="http://hl7.org/fhir/langs/ImplementationGuide/hl7.fhir.r4.es"/>
+  <id value="hl7.fhir.r4.fr-CA"/>
+  <url value="http://hl7.org/fhir/langs/ImplementationGuide/hl7.fhir.r4.fr-CA"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.1.0"/>
-  <name value="FHIRLangPackSpanish"/>
-  <title value="Paquete de idiomas FHIR - Español"/>
-  <status value="active"/>
-  <experimental value="false"/>
-  <publisher value="HL7 International Affiliate Council"/>
-  <description value="Paquete de idiomas FHIR - Traducciones al español"/>
+  <name value="FHIRLangPackFrenchCanadian"/>
+  <title value="Language Pack Fench Canadian (Prototype)"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <description value="Language Pack Fench Canadian (Prototype)"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
-      <code value="ES"/>
+      <code value="CAN"/>
     </coding>
   </jurisdiction>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="AR"/>
-    </coding>
-  </jurisdiction>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="CL"/>
-    </coding>
-  </jurisdiction>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="CO"/>
-    </coding>
-  </jurisdiction>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="PE"/>
-    </coding>
-  </jurisdiction>
-  <packageId value="hl7.fhir.r4.es"/>
+  <packageId value="hl7.fhir.r4.fr-CA"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn>
@@ -52,7 +27,7 @@
   <definition>
     <page>
       <nameUrl value="index.html"/>
-      <title value="Página de inicio"/>
+      <title value="Home Page"/>
       <generation value="html"/>
     </page>
     <!-- copyright year is a mandatory parameter -->
@@ -68,7 +43,7 @@
     <!-- The actual default working language -->
     <parameter>
       <code value="i18n-default-lang"/>
-      <value value="es"/>
+      <value value="fr-CA"/>
     </parameter>
     <!-- folder to scan for translations to turn into supplements -->
     <parameter>
