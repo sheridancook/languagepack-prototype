@@ -1,39 +1,68 @@
-# en -> fr-CA
----everything below needs swapping out for condition clinical status code" 
-
-#: account-status
-msgid "AccountStatus"
-msgstr "EstadoCuenta"
-
-#: account-status/title
-msgid "AccountStatus"
-msgstr "Estado de la Cuenta"
-
-#: account-status/description
-msgid "Indicates whether the account is available to be used."
-msgstr ""
-
-#: active
-#. This account is active and may be used.
-msgid "Active"
-msgstr "Activa"
-
-#: inactive
-#. This account is inactive and should not be used to track financial information.
-msgid "Inactive"
-msgstr ""
-
-#: entered-in-error
-#. This instance should not have been part of this patient's medical record.
-msgid "Entered in error"
-msgstr ""
-
-#: on-hold
-#. This account is on hold.
-msgid "On Hold"
-msgstr ""
-
-#: unknown
-#. The account status is unknown.
-msgid "Unknown"
-msgstr ""
+{
+    "id" : "CodeSystem-condition-clinical",
+    "baseLang" : "en",
+    "languages" : [
+      {
+        "targetLang" : "fr-CA",
+        "entries" : [    
+          {
+            "id" : "condition-clinical",
+            "source" : "ConditionClinicalStatusCodes",
+            "target" : "CodesÉtatCliniqueÉtat"
+          },
+          {
+            "id" : "condition-clinical/title",
+            "source" : "Condition Clinical Status Codes",
+            "target" : "Codes d'état clinique d'état"
+          },
+          {
+            "id" : "condition-clinical/definition",
+            "source" : "Preferred value set for Condition Clinical Status.",
+            "target" : "Valeur préférée définie pour l'état clinique de l'état."
+          },
+          {
+            "id" : "active",
+            "context" : "The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.",
+            "source" : "Active",
+            "target" : "Actif"
+          },
+          {
+            "id" : "recurrence",
+            "context" : "The subject is experiencing a reoccurence or repeating of a previously resolved condition or situation, e.g. urinary tract infection, food insecurity.",
+            "source" : "Recurrence",
+            "target" : "Récidive"
+          },
+          {
+            "id" : "relapse",
+            "context" : "The subject is experiencing a return of a condition or situation after a period of improvement or remission, e.g. relapse of cancer, alcoholism.",
+            "source" : "Relapse",
+            "target" : "Récidive"
+          },
+          {
+            "id" : "inactive",
+            "context" : "The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation..",
+            "source" : "Inactive",
+            "target" : "Inactif"
+          },
+          {
+            "id" : "remission",
+            "context" : "The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.",
+            "source" : "Remission",
+            "target" : "Rémission"
+          },
+          {
+            "id" : "resolved",
+            "context" : "The subject is not presently experiencing the condition or situation and there is a negligible perceived risk of the condition or situation returning.",
+            "source" : "Resolved",
+            "target" : "Résolu"
+          },
+          {
+            "id" : "unknown",
+            "context" : "The authoring/source system does not know which of the status values currently applies for this condition. Note: This concept is not to be used for 'other' - one of the listed statuses is presumed to apply, but the authoring/source system does not know which..",
+            "source" : "Unknown",
+            "target" : "Inconnu"
+          }                
+        ]
+      }
+    ]
+  } 
