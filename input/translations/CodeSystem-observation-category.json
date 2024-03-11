@@ -1,0 +1,16 @@
+{
+  "id" : "CodeSystem-observation-category",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "fr-CA",
+      "entries" : [
+        {
+          "id" : "imaging",
+          "source" : "imaging",
+          "target" : null
+        }
+      ]
+      }
+  ]
+}

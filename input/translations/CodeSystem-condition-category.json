@@ -1,0 +1,9 @@
+{
+  "id" : "CodeSystem-condition-category",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "fr-CA"
+    }
+  ]
+} 
