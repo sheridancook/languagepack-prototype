@@ -1,0 +1,62 @@
+{
+    "id" : "CodeSystem-condition-clinical",
+    "baseLang" : "en",
+    "languages" : [
+      {
+        "targetLang" : "fr-CA",
+        "entries" : [    
+          {
+            "id" : "condition-ver-status",
+            "source" : "ConditionVerificationStatus",
+            "target" : "ÉtatVérificationÉtat"
+          },
+          {
+            "id" : "condition-ver-status/title",
+            "source" : "Condition Verifications Status Codes",
+            "target" : "Codes d'état des vérifications de condition"
+          },
+          {
+            "id" : "condition-ver-status/definition",
+            "source" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+            "target" : "L'état de vérification pour soutenir ou refuser l'état clinique de la condition ou du diagnostic."
+          },
+          {
+            "id" : "unconfirmed",
+            "context" : "There is not sufficient evidence to assert the presence of the subject's condition.",
+            "source" : "Unconfirmed",
+            "target" : "Non confirmé"
+          },
+          {
+            "id" : "provisional",
+            "context" : "One of a set of potential (and typically mutually exclusive) diagnoses asserted to further guide the diagnostic process and preliminary treatment.",
+            "source" : "Provisional",
+            "target" : "Provisoire"
+          },
+          {
+            "id" : "differential",
+            "context" : "The subject is experiencing a return of a condition or situation after a period of improvement or remission, e.g. relapse of cancer, alcoholism.",
+            "source" : "Differential",
+            "target" : "Différentiel"
+          },
+          {
+            "id" : "confirmed",
+            "context" : "There is sufficient evidence to assert the presence of the subject's condition.",
+            "source" : "Confirmed",
+            "target" : "Confirmé"
+          },
+          {
+            "id" : "refuted",
+            "context" : "This account is active and may be used.",
+            "source" : "Refuted",
+            "target" : "Infirmé"
+          },
+          {
+            "id" : "entered-in-error",
+            "context" : "This account is inactive and should not be used to track financial information.",
+            "source" : "Entered in Error",
+            "target" : "Entré par erreur"
+          }               
+        ]
+      }
+    ]
+  } 

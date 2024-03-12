@@ -3,7 +3,36 @@
   "baseLang" : "en",
   "languages" : [
     {
-      "targetLang" : "fr-CA"
+      "targetLang" : "fr-CA",
+      "entries" : [    
+        {
+          "id" : "condition-category",
+          "source" : "ConditionCategoryCodes",
+          "target" : "CodesCatégorieCondition"
+        },
+        {
+          "id" : "condition-category/title",
+          "source" : "Condition Category Codes",
+          "target" : "Codes de catégorie de condition"
+        },
+        {
+          "id" : "condition-category/definition",
+          "source" : "Preferred value set for Condition Categories.",
+          "target" : "Jeu de valeurs préférées pour les catégories de conditions"
+        },
+        {
+          "id" : "problem-list-item",
+          "context" : "This account is active and may be used.",
+          "source" : "Problem List Item",
+          "target" : "Élément figurant sur la liste de problèmes"
+        },
+        {
+          "id" : "encounter-diagnosis",
+          "context" : "This account is inactive and should not be used to track financial information.",
+          "source" : "encounter-diagnosis",
+          "target" : "Diagnostic lors de la consultation"
+        }
+      ]
     }
   ]
 } 
